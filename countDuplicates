@@ -1,0 +1,8 @@
+class Sol:
+    def countDuplicates(self,list):
+        if len(set(list))==len(list):
+            return False
+        return True
+if __name__ == '__main__':
+    p1=Sol()
+    print(p1.countDuplicates([1,2,3]))
